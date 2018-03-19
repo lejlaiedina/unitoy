@@ -4,5 +4,4 @@ root 'pages#landing_page'
 
 
 
-
 end
