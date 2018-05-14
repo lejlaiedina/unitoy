@@ -15,4 +15,17 @@ get '/choose' => 'pages#choose'
 
 get '/imagine' => 'pages#imagine'
 
+get '/bear'=> 'pages#bear'
+
+get '/gepard'=> 'pages#gepard'
+
+get '/winni'=> 'pages#winni'
+
+get '/giraffe'=> 'pages#giraffe'
+
+get '/ninja'=> 'pages#ninja'
+
+get '/tweety'=> 'pages#tweety'
+
+
 end
