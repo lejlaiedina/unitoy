@@ -3,10 +3,16 @@ Rails.application.routes.draw do
   devise_for :models
 root to: 'pages#landing_page'
 
-get '/About us' => 'pages#Aboutus'
+get '/aboutus' => 'pages#aboutus'
 
-get '/Contact' => 'pages#Contact'
+get '/contact' => 'pages#contact'
 
-get '/ChooseToy' => 'pages#ChooseToy'
+get '/choose_toy' => 'pages#choose_toy'
+
+get '/paint' => 'pages#paint'
+
+get '/choose' => 'pages#choose'
+
+get '/imagine' => 'pages#imagine'
 
 end
