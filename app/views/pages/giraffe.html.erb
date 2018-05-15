@@ -1,0 +1,170 @@
+<center>
+<h1 class="true"> Feel the Love! </h1> <br/> <i class="fa fa-pagelines" style="font-size:48px;color:#4c9cba;"></i>
+
+<br/><br/>
+<h2 class="play"> In a Rainy Day, Try it On !</h2> 
+</center>
+
+
+
+<br/>
+<img src="giraffe1.jpg" style="float:left; margin-right:95px" />
+<br/>
+
+ <a href="#" class="myButton">Wich part do You pick?</a>
+ <br/><br/>
+
+ <label class="container"><b>Head<b>
+ <input type="checkbox" checked="checked">
+ <span class="checkmark"></span>
+</label>
+
+<label class="container">Hands
+ <input type="checkbox">
+ <span class="checkmark"></span>
+</label>
+
+<label class="container">Legs
+ <input type="checkbox">
+ <span class="checkmark"></span>
+</label>
+
+<label class="container"> Tummy
+ <input type="checkbox">
+ <span class="checkmark"></span>
+</label>
+
+<style>
+
+.container{
+  display: block;
+  position: relative;
+  padding-left:0px;
+  margin-bottom: 12px;
+  margin-right:100px;
+  cursor: pointer;
+  font-size: 24px;
+  color:#59476e;
+  text:bold;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position:absolute;
+  top: 0;
+  left: 450px;
+  height: 25px;
+  width: 25px;
+  background-color:#eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+</style>
+
+
+
+<style>
+.myButton {
+	-moz-box-shadow:inset 0px 0px 0px 0px #f7c5c0;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #f7c5c0;
+	box-shadow:inset 0px 0px 0px 0px #f7c5c0;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fc8d83), color-stop(1, #e4685d));
+	background:-moz-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-webkit-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-o-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-ms-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc8d83', endColorstr='#e4685d',GradientType=0);
+	background-color:#fc8d83;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:2px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:13px 15px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35; 
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+    </style>
+
+<style>
+.play{
+    color:#a00456;
+    font-size:34px;
+}
+
+.pernica{
+    color:purple;
+    font-size:32px;
+
+}
+.true{
+    color:#a00456;
+}
+
+img{
+    -moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ab1937;
+    display:inline-block;
+    width:400px;
+    height:500px;
+    
+}
+
+img:hover{
+    opacity: 0.5;
+}
+</style>
+
