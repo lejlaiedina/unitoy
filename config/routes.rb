@@ -27,5 +27,7 @@ get '/ninja'=> 'pages#ninja'
 
 get '/tweety'=> 'pages#tweety'
 
+get  '/userrating'=> 'pages#userrating'
+
 
 end
