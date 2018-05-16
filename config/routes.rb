@@ -29,5 +29,9 @@ get '/tweety'=> 'pages#tweety'
 
 get  '/userrating'=> 'pages#userrating'
 
+get '/signin'=> 'pages#signin'
+
+get '/news'=> 'pages#news'
+
 
 end
